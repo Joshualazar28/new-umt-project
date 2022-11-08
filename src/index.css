@@ -1,0 +1,959 @@
+                                      /* /// shoaib css /// */
+
+                                      /* notice style */
+
+                                      .flex2 h3 {
+                                        text-decoration: underline;
+                                      }
+
+                                      .outer {
+                                        width: 800px;
+                                        height: 450px;
+                                        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+                                        background: #fff;
+                                        padding: 50px 20px 20px 20px;
+                                        margin: 10px 10px 10px 20px;
+                                        text-align: left;
+                                        border-radius: 1px;
+                                        overflow-y: scroll;
+                                      }
+
+                                      .noticePreview:hover a {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .noticePreview:hover p {
+                                        text-decoration: none;
+                                      }
+
+                                      .noticePreview p {
+                                        color: black;
+                                        width: auto;
+                                        max-height: 20px;
+                                      }
+
+                                      .noticePreview .impPreview {
+                                        /* padding: 10px 16px; */
+                                        padding: auto;
+                                        margin: 20px 0;
+                                        border: 5px solid black;
+                                        /* border-bottom: 1px solid #fafafa; */
+                                      }
+
+                                      .noticePreview:hover, .impPreview:hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+                                      }
+
+                                      .noticePreview h4, .impPreview h4 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 8px;
+                                      }
+
+                                      /* importants style*/
+
+                                      .shortouter {
+                                        width: 400px;
+                                        height: 400px;
+                                        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+                                        background: #fff;
+                                        padding: 50px 20px 20px 20px;
+                                        margin: 10px 10px 10px 20px;
+                                        text-align: left;
+                                        border-radius: 1px;
+                                        overflow-y: scroll;
+                                      }
+
+                                      /* making flex */
+
+                                      .flex {
+                                        display: flex;
+                                      }
+
+                                      .outer {
+                                        flex: 1;
+                                        text-align: left;
+                                      }
+
+                                      .child:first-child {
+                                        margin-right: 20px;
+                                        margin-left: 25px;
+                                      }
+
+                                      .child:last-child {
+                                        margin-left: 300px;
+                                      }
+
+                                      .flex2 {
+                                        display: flex;
+                                      }
+
+                                      .childT {
+                                        flex: 1;
+                                        text-align: left;
+                                      }
+
+                                      .childT:first-child {
+                                        margin-right: 20px;
+                                        margin-left: 25px;
+                                      }
+
+                                      .childT:last-child {
+                                        margin-left: 500px;
+                                      }
+
+                                      /* scrollbar style */
+
+                                      ::-webkit-scrollbar {
+                                        width: 8px;
+                                      }
+
+                                      /* Track */
+
+                                      ::-webkit-scrollbar-track {
+                                        background: #f1f1f1;
+                                      }
+
+                                      /* Handle */
+
+                                      ::-webkit-scrollbar-thumb {
+                                        background: #888;
+                                      }
+
+                                      /* Handle on hover */
+
+                                      ::-webkit-scrollbar-thumb:hover {
+                                        background: #555;
+                                      }
+
+                                      /* Staff css*/
+
+                                      .ss_staffnoticeboard h3, .ss_heading {
+                                        text-decoration: underline;
+                                        text-align: left;
+                                        margin-left: 2%;
+                                      }
+
+                                      .ss_heading {
+                                        color: #2F9DC6;
+                                        text-decoration: none;
+                                        font-size: 40px;
+                                        text-align: center;
+                                      }
+
+                                      .ss_labelStyle {
+                                        font-weight: bold;
+                                        color: #2F9DC6;
+                                      }
+
+                                      .ss_textbox {
+                                        width: 100%;
+                                        height: 150px;
+                                      }
+
+                                      /**/
+
+                                      .ss_noticeForm {
+                                        max-width: 400px;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                      }
+
+                                      .ss_noticeForm label {
+                                        text-align: left;
+                                        display: block;
+                                      }
+
+                                      .ss_noticeForm h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 30px;
+                                      }
+
+                                      .ss_noticeForm input, .create textarea, .create select {
+                                        width: 100%;
+                                        padding: 6px 10px;
+                                        margin: 10px 0;
+                                        border: 1px solid #ddd;
+                                        box-sizing: border-box;
+                                        display: block;
+                                      }
+
+                                      .ss_noticeForm button {
+                                        background: #2F9DC6;
+                                        color: #fff;
+                                        margin-top: 10px;
+                                        margin-left: 75%;
+                                        border: 0;
+                                        padding: 8px;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                      }
+
+                                      /**/
+
+                                      .ss_icons :hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+                                      }
+
+                                      .ss_img {
+                                        margin-left: 10px;
+                                        margin-bottom: 10px;
+                                        margin-right: 25px;
+                                      }
+
+                                      .ss_detailNoticeBox {
+                                        width: 400;
+                                        height: auto;
+                                      }
+
+                                      .ss_detailNoticeBox_title {
+                                        color: #2F9DC6;
+                                        text-align: left;
+                                        margin-left: 40px;
+                                        text-decoration: underline;
+                                      }
+
+                                      .ss_detailNoticeBox_body {
+                                        margin-left: 40px;
+                                        margin-right: 40px;
+                                      }
+
+                                      .ss_detailNoticeBox_date {
+                                        text-align: right;
+                                        margin-right: 40px;
+                                      }
+
+                                      .ss_date {
+                                        text-decoration: underline;
+                                      }
+
+                                      /* /// sehar css /// */
+
+                                      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+                                      body {
+                                        font-family: sans-serif;
+                                      }
+                                    
+                                      .error{
+                                        color: #ff0099;
+                                        margin: 10px 2px;
+                                        font-size: 0.8em;
+                                        font-weight: bold;
+                                      }
+                                      .navbar {
+                                        background-color: #2F9DCF;
+                                        position: fixed;
+                                        height: fit-content;
+                                        display: flex;
+                                        align-items: center;
+                                        height: auto;
+                                      }
+
+                                      .navHome :hover {
+                                        text-decoration: none;
+                                        color: darkcyan;
+                                      }
+
+                                      .navHome a {
+                                        text-decoration: none;
+                                        color: white;
+                                      }
+
+
+                                      .appName-navbar {
+                                        font-style: italic;
+                                        color: whitesmoke;
+                                        text-align: center;
+                                        position: relative;
+                                      }
+
+                                      /*login page*/
+
+                                      .form-content {
+                                        background-image: url("Backschool.JPG");
+                                        
+                                      }
+
+                                      /* login form*/
+
+                                      .form {
+                                        background-color: #FFFFFF;
+                                        width: 450px;
+                                        height: 600px;
+                                        margin: 2em auto;
+                                        border-radius: 1.5em;
+                                        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+                                        align-items: center;
+                                        padding-top: 20px;
+                                      }
+
+                                      .Signup-butn {
+                                        background-color: #3b76ce;
+                                        border: none;
+                                        color: white;
+                                        padding: 15px 50px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      .Signup-butn:hover {
+                                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                                      }
+
+                                      .my-forminputs {
+                                        width: 76%;
+                                        color: rgb(38, 50, 56);
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        letter-spacing: 1px;
+                                        background: rgba(136, 126, 126, 0.04);
+                                        padding: 10px 20px;
+                                        border: none;
+                                        border-radius: 20px;
+                                        outline: none;
+                                        box-sizing: border-box;
+                                        border: 2px solid rgba(0, 0, 0, 0.02);
+                                        margin-bottom: 50px;
+                                        margin-left: 46px;
+                                        text-align: center;
+                                        margin-bottom: 27px;
+                                      }
+
+                                      .my-forminputs:focus {
+                                        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+                                      }
+
+                                      .forgot-password {
+                                        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+                                        padding-top: 17px;
+                                      }
+
+                                      .form-label {
+                                        padding-top: 20px;
+                                        color: #8C55AA;
+                                        font-family: 'Ubuntu', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                      }
+
+                                      .form-headings {
+                                        padding-top: 20px;
+                                        color: #8C55AA;
+                                        font-family: 'Ubuntu', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                        font-style: italic;
+                                      }
+
+                                      /*register form*/
+
+                                      .forminputs {
+                                        width: 80%;
+                                        color: rgb(38, 50, 56);
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        letter-spacing: 0.5px;
+                                        background: rgba(136, 126, 126, 0.04);
+                                        padding: 13px 10px;
+                                        border: none;
+                                        border-radius: 20px;
+                                        outline: none;
+                                        box-sizing: border-box;
+                                        border: 2px solid rgba(0, 0, 0, 0.02);
+                                        margin-bottom: 50px;
+                                        margin-left: 50px;
+                                        margin-right: 30px;
+                                        text-align: center;
+                                        margin-bottom: 27px;
+                                      }
+
+                                      .form1 {
+                                        background-color: #FFFFFF;
+                                        width: 570px;
+                                        height: 820px;
+                                        margin: 3em auto;
+                                        border-radius: 1.5em;
+                                        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+                                        align-items: center;
+                                        padding-top: 30px;
+                                        text-align: center;
+                                      }
+
+                                      /*Homenavbar*/
+
+                                      .Home-nav-content {
+                                        margin: 40px;
+                                        color: aliceblue;
+                                      }
+
+                                      .Home-nav-content a {
+                                        margin: 14px;
+                                        font-family: 'Ubuntu', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                      }
+
+                                      /*first page */
+                                      .bg-pic{
+                                        background-image: url("https://thumbs.dreamstime.com/z/student-support-services-word-cloud-student-support-services-word-cloud-wordcloud-made-text-132814497.jpg");
+                                      }
+
+                                      .first-page {
+                                     
+                                        background-size: 650px 723px;
+                                        background-repeat: no-repeat;
+                                        background-size: initial;
+                                        background-color: rgba(255, 255, 255, 0.952);
+                                      } 
+
+                                      .first-page h1 {
+                                        padding-top: 75px;
+                                        text-align: center;
+                                        color: #8C55AA;
+                                        font-family: "Quicksand";
+                                        font-weight: bold;
+                                        font-size: 45px;
+                                        padding-bottom: 50px;
+                                        margin-left: 0%;
+                                      }
+
+                                      /* /// imran css /// */
+
+                                      /* .ClearanceTitle {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .textarea1 {
+                                        padding: 6px 10px;
+                                        border: 2px solid #2F9DC6;
+                                        cursor: pointer;
+                                        box-sizing: border-box;
+                                        font-size: large;
+                                        font-weight: bold;
+                                      }
+
+                                      .B1 {
+                                        background-color: #2F9DC6;
+                                        border: 0;
+                                        color: #fff;
+                                        width: 20%;
+                                        max-height: 200px;
+                                      } */
+
+                                      .table1 {
+                                        width: 800px;
+                                        margin-left: 370px;
+                                        margin-right: 20px;
+                                      }
+
+                                      .tablecontent {
+                                        text-align: left;
+                                        font-weight: bold;
+                                      }
+
+                                      .tableCaption {
+                                        margin-right: 378px;
+                                        margin-left: 370px;
+                                        background-color: #2F9DC6;
+                                        color: #fff;
+                                        font-weight: bold;
+                                      }
+
+                                      .tableheader {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .tablerow {
+                                        border: 2px solid #2F9DC6;
+                                        cursor: pointer;
+                                      }
+
+                                      .im-reject {
+                                        background-color: rgba(255, 0, 0, 0.822);
+                                        color: white;
+                                        font-weight: bold;
+                                        width: 100px;
+                                        height: 25px;
+                                      }
+
+                                      .im-accept {
+                                        margin-right: 100px;
+                                        background-color: #1ebcf5;
+                                        color: white;
+                                        font-weight: bold;
+                                        width: 100px;
+                                        height: 25px;
+                                      }
+
+                                      .im-card {
+                                        border: 3px solid #2F9DC6;
+                                        margin-left: 50px;
+                                        margin-right: 50px;
+                                        margin-bottom: 20px;
+                                      }
+
+                                      .im-reason {
+                                        margin-top: 100px;
+                                        border: 3px solid #2F9DC6;
+                                        background-color: #ffff;
+                                      }
+
+                                      /* /// ameena & maham css /// */
+
+                                      /* blog previews / list */
+
+                                      .blog-preview {
+                                        padding: 10px 16px;
+                                        margin: 20px 0;
+                                        border-bottom: 1px solid #fafafa;
+                                        width: 400px;
+                                        height: 100px;
+                                      }
+
+                                      .blog-preview:hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+                                        width: 400px;
+                                        height: 100px;
+                                        padding: 10px 16px;
+                                        margin: 20px 0;
+                                      }
+
+                                      .blog-preview h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 8px;
+                                      }
+
+                                      .blog-preview a {
+                                        text-decoration: none;
+                                      }
+
+                                      .blog-preview p {
+                                        color: black;
+                                      }
+
+                                      /* blog details page */
+
+                                      .post-details h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 10px;
+                                      }
+
+                                      .post-details div {
+                                        margin: 20px 0;
+                                      }
+
+                                      .post-details button {
+                                        background: #2F9DC6;
+                                        color: #fff;
+                                        border: 0;
+                                        padding: 8px;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                      }
+
+                                      /* create new blog form */
+
+                                      .create {
+                                        max-width: 400px;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                      }
+
+                                      .create label {
+                                        text-align: left;
+                                        display: block;
+                                      }
+
+                                      .create h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 30px;
+                                      }
+
+                                      .create input, .create textarea, .create select {
+                                        width: 100%;
+                                        padding: 6px 10px;
+                                        margin: 10px 0;
+                                        border: 1px solid #ddd;
+                                        box-sizing: border-box;
+                                        display: block;
+                                      }
+
+                                      .create button, .ss_button {
+                                        background: #2F9DC6;
+                                        color: #fff;
+                                        border: 0;
+                                        padding: 8px;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                      }
+
+                                      .psnavbar {
+                                        padding: 20px;
+                                        display: flex;
+                                        align-items: center;
+                                        max-width: 600px;
+                                        margin: 0 auto;
+                                        border-bottom: 1px solid #f2f2f2;
+                                      }
+
+                                      .psnavbar h1 {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .psnavbar .links {
+                                        margin-left: auto;
+                                      }
+
+                                      .psnavbar a {
+                                        margin-left: 16px;
+                                        text-decoration: none;
+                                        padding: 6px;
+                                      }
+
+                                      .psnavbar a:hover {
+                                        color: #2F9DC6;
+                                      }
+
+                                      /*    ////////Admin CSS//////////////*/
+
+                                      /*sehar-css start of admin first page */
+
+                                      .navbar {
+                                        background-color: #2F9DCF;
+                                      }
+
+                                      .adminNav-content {
+                                        margin-left: 60px;
+                                        font-family: 'Ubuntu', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                      }
+
+                                      a.nav-link {
+                                        color: aliceblue;
+                                      }
+
+                                      .SH-Admin-nav-button {
+                                        background-color: #3283a8;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 30px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      .SH-Admin-nav-button:hover {
+                                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                                      }
+
+                                      .navbar-notice {
+                                        padding: 20px;
+                                        display: flex;
+                                        align-items: center;
+                                        max-width: 800px;
+                                        margin: 0 auto;
+                                        border-bottom: 1px solid #f2f2f2;
+                                      }
+
+                                      .navbar-notice h1 {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .navbar-notice .links {
+                                        margin-left: auto;
+                                      }
+
+                                      .navbar-notice a {
+                                        margin-left: 16px;
+                                        text-decoration: none;
+                                        padding: 6px;
+                                      }
+
+                                      .navbar-notice a:hover {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .SH-Admin-Noticebtn {
+                                        background-color: #3283a8;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 17px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      .SH-Admin-approveBtn:hover {
+                                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                                      }
+
+                                      /* blog previews / list */
+
+                                      .SH-notice-preview {
+                                        padding: 10px 16px;
+                                        margin: 20px 0;
+                                        border-bottom: 1px solid #fafafa;
+                                      }
+
+                                      .SH-notice-preview:hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+                                      }
+
+                                      .SH-notice-preview h2 {
+                                        font-size: 20px;
+                                        color: #f1356d;
+                                        color: #ba71e0;
+                                        margin-bottom: 8px;
+                                      }
+
+                                      .SH-Admin-home-content {
+                                        max-width: 600px;
+                                        margin: 40px auto;
+                                        padding: 20px;
+                                      }
+
+                                      .SH-Admin-approveBtn {
+                                        background-color: #3283a8;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 17px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      .SH-Admin-approveBtn:hover {
+                                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                                      }
+
+                                      /*sehar css end of admin first page */
+
+                                      /*Maham css start for post handling*/
+
+                                      /* base styles */
+
+                                      * {
+                                        margin: 0;
+                                        font-family: "Quicksand";
+                                        color: #333;
+                                      }
+
+                                      .navbarM {
+                                        padding: 20px;
+                                        display: flex;
+                                        align-items: center;
+                                        max-width: 800px;
+                                        margin: 0 auto;
+                                        border-bottom: 1px solid #f2f2f2;
+                                      }
+
+                                      .navbarM h1 {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .navbarM .links {
+                                        margin-left: auto;
+                                      }
+
+                                      .navbarM a {
+                                        margin-left: 16px;
+                                        text-decoration: none;
+                                        padding: 6px;
+                                      }
+
+                                      .navbarM a:hover {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .content {
+                                        max-width: 600px;
+                                        margin: 40px auto;
+                                        padding: 20px;
+                                      }
+
+                                      /* blog previews / list */
+
+                                      .post-preview {
+                                        padding: 10px 16px;
+                                        margin: 20px 0;
+                                        border-bottom: 1px solid #fafafa;
+                                      }
+
+                                      .post-preview:hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+                                      }
+
+                                      .post-preview h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 8px;
+                                      }
+
+                                      .post-preview button {
+                                        background-color: #3283a8;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 17px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      .Heading h2 {
+                                        margin-left: 90px;
+                                        font-size: x-large;
+                                      }
+
+                                      /*Ameena css start for user handling*/
+
+                                      /* base styles */
+
+                                      * {
+                                        margin: 0;
+                                        font-family: "Quicksand";
+                                        color: #333;
+                                      }
+
+                                      .navbarUser {
+                                        padding: 20px;
+                                        display: flex;
+                                        align-items: center;
+                                        max-width: 800px;
+                                        margin: 0 auto;
+                                        border-bottom: 1px solid #f2f2f2;
+                                      }
+
+                                      .navbarUser h1 {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .navbarUser .links {
+                                        margin-left: auto;
+                                      }
+
+                                      .navbarUser a {
+                                        margin-left: 16px;
+                                        text-decoration: none;
+                                        padding: 6px;
+                                      }
+
+                                      .navbarUser a:hover {
+                                        color: #2F9DC6;
+                                      }
+
+                                      .content {
+                                        max-width: 600px;
+                                        margin: 40px auto;
+                                        padding: 20px;
+                                      }
+
+                                      /* user previews / list */
+
+                                      .user-preview {
+                                        padding: 10px 16px;
+                                        margin: 20px 0;
+                                        border-bottom: 1px solid #fafafa;
+                                      }
+
+                                      .user-preview:hover {
+                                        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+                                      }
+
+                                      .user-preview h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 8px;
+                                      }
+
+                                      .user-preview a {
+                                        text-decoration: none;
+                                      }
+
+                                      .user-preview button {
+                                        background-color: #3283a8;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 17px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                        -webkit-transition-duration: 0.4s;
+                                        transition-duration: 0.4s;
+                                        border-radius: 5em;
+                                      }
+
+                                      /* create new user form */
+
+                                      .create {
+                                        max-width: 500px;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                      }
+
+                                      .create label {
+                                        text-align: left;
+                                        display: block;
+                                      }
+
+                                      .create h2 {
+                                        font-size: 20px;
+                                        color: #2F9DC6;
+                                        margin-bottom: 30px;
+                                      }
+
+                                      .create input, .create textarea, .create select {
+                                        width: 100%;
+                                        padding: 6px 10px;
+                                        margin: 10px 0;
+                                        border: 1px solid #ddd;
+                                        box-sizing: border-box;
+                                        display: block;
+                                      }
+
+                                      .create button {
+                                        background: #2F9DC6;
+                                        color: #fff;
+                                        border: 0;
+                                        padding: 8px;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                      }
